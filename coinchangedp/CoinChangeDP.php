@@ -33,9 +33,9 @@
         }   
         
     }
-    $dataarray= array(1,2,3);
-    $dp = new CoinChange(4,$dataarray);
+    $dataarray= array(1,2,5);
+    $dp = new CoinChange(5,$dataarray);
     $getData = $dp->getdata();
     $dp->hasil($getData);
-    echo " Total:".$getData[4];
+    echo " Total:".$getData[5];
 ?>
